@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(222,222,222);
+  /* z-index: 100; */
+}
+
+#wrapper {
+  background-color: gray;
+}
+
+#heading  {
+   background-color: black;
+  background-image: url(/img/heading/handmaid.jpg);
+  width: 1600px;
+  height: 600px;
+  background-repeat:no-repeat;
+  display:block;
+
+}
+
+#main {
+  background-color: gray;
+}
+
+.thumbnail-row {
+  grid-area: tr;
+}
+
+.thumbnail-block {
+  background-color: white;
+}
