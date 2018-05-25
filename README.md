@@ -6,7 +6,12 @@
 
 A Clone of Hulu
 
+
 ## Specifications
+
+* Use CSS Grid and Flex to recreate Hulu's website.
+  * CSS Grid used for Watchlist's
+  * Flex Used for Footer
 
 | Specification | Input | Output |
 | --- | --- | --- |
