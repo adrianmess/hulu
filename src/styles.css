@@ -3,10 +3,15 @@ body {
   /* z-index: 100; */
 }
 
+a{
+  color: white;
+}
+
 .h4-title{
 background-color: rgb(239,239,239);
 color: #AAAAAA;
 font-family: 'Raleway', sans-serif;
+font-weight: 100;
 font-size: 26px;
 padding-top: 60px;
 margin:0;
@@ -124,6 +129,7 @@ margin:0;
   justify-content: space-evenly;
   height: 170px;
   background-color: white;
+
 }
 
 .footer-images {
@@ -131,9 +137,35 @@ margin:0;
   height: 124px;
   margin-right: 18px;
   margin-top: 20px;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-#footer-text-tv {
+.footer-text-tv {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    line-height: 10px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+}
+
+/* .overline {
+  text-decoration: overline;
+}
+
+.underline {
+  text-decoration: underline;
+} */
+
+/* #footer-text-tv {
 background-image: url(https://a248.e.akamai.net/ib.huluim.com/video/61020205?size=220x124&region=us);
 
-}
+} */
