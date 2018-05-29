@@ -35,9 +35,59 @@ a{
 
 }
 
+#header {
+  height: 41px;
+  width: 100%;
+  padding-top: 19px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-flex;
+}
 
+#header ul {
+  font-family: 'Raleway', sans-serif;
+  list-style-type: none;
+  display: inline-flex;
+  color: white;
+  padding-left: 10px;
+}
 
+#header h3{
+  color: green;
+  font-weight: bold;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
 
+#header li {
+  margin-left: 10px;
+}
+
+#inputfield {
+  padding: 0;
+  width: 218px;
+  height: 26px;
+  /* padding: 3px 3px 4px 3px; */
+  background-color: rgba(255, 0, 0, 0.0);
+  border-color: rgba(255, 0, 0, 0.0);
+}
+
+#inputfieldcontainer {
+  width: 218px;
+  height: 26px;
+  margin-left: 100px;
+  padding: 3px 3px 4px 3px;
+    background: url(https://www.hulu.com/ns-huluguru/bg-search-bar-65f2da57ccdddd3b520b4027ed8ea6b3.png);
+}
+
+#header-right {
+  margin-left: 500px;
+}
+
+#header-right li {
+  margin-left: 20px;
+}
 /* --------------main grid--------- */
 #watch-list {
   display: grid;
@@ -126,52 +176,78 @@ a{
 }
 
 .workahlics-img-big {
-  /* float:left; */
+
 }
 
 
 
 /* ---------------Hulu Originals------------- */
 #hulu-originals {
-/* display: flex; */
+  /* display: flex; */
 }
 
 .hulu-originals-container {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .thumbnail-image-big-notes{
-display: flex;
-text-align: left;
-max-width: 704px;;
-background: white;
-float: left;
+  display: flex;
+  text-align: left;
+  max-width: 704px;;
+  background: white;
+  float: left;
 }
 
 .original-small-images {
   display: flex;
   flex-wrap: wrap;
- flex: 1;
+  flex: 1;
 }
 
 .img-thumbnail-notxt-flex {
-flex: 1;
+  flex: 1;
+    padding: 10px;
 }
 
-/* #hulu-originals div img {
-  position: absolute;
-  float: left;
-  color: green;
-} */
-
-/* #hulu-originals div p {
-  float: right;
-  color: green;
-} */
-
-
 /* ----------------------------------------- */
+
+/* --------------Funniest Families----------- */
+/* Using grid with auto-template */
+
+.big-to-small-thumnails {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+  /* grid-auto-rows: minmax(100px, auto); */
+  grid-column-gap: 16px;
+  /* grid-rows 145px; */
+  /* grid-auto-flow: dense; */
+}
+
+.big-thumbnail-image{
+  width: 476px;
+  height: 268px;
+
+  grid-column-start: 1;
+  grid-row: 1 / 2;
+  grid-gap: 10px;
+}
+
+#small-thumbnail-image {
+  grid-column: 6 / 16;
+  grid-row: 1/2;
+  grid-gap: 10px;
+}
+
+
+/* .big-to-small-thumnails img:nth-child(1n+1) {
+grid-rows
+
+} */
+
 
 /* -------------footer --------------- */
 
@@ -208,16 +284,3 @@ flex: 1;
   font-family: 'Raleway', sans-serif;
   font-weight: bolder;
 }
-
-/* .overline {
-text-decoration: overline;
-}
-
-.underline {
-text-decoration: underline;
-} */
-
-/* #footer-text-tv {
-background-image: url(https://a248.e.akamai.net/ib.huluim.com/video/61020205?size=220x124&region=us);
-
-} */
