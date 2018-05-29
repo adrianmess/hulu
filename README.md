@@ -10,11 +10,16 @@ A Clone of Hulu
 ## Specifications
 
 * Use CSS Grid and Flex to recreate Hulu's website.
-  * CSS Grid used for Watchlist's
+  * CSS Grid used for 'Human's Watchlist' section.
+  * Flex Wrap used for 'Top Picks For Human' section.
+  * Flex Wrap used for 'Hulu Originals' section.
+  * CSS Grid used for 'TV's Funniest Families' section.
   * Flex Used for Footer
 
-| Specification | Input | Output |
-| --- | --- | --- |
+
+## Diagram
+
+<img src="https://storage.googleapis.com/theonemaxim.com/hulu-site-rebuild/Hulu-remake-diagram-.jpeg">
 
 ## Setup/Installation Requirements
 
