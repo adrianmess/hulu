@@ -131,7 +131,47 @@ a{
 
 
 
+/* ---------------Hulu Originals------------- */
+#hulu-originals {
+/* display: flex; */
+}
 
+.hulu-originals-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.thumbnail-image-big-notes{
+display: flex;
+text-align: left;
+max-width: 704px;;
+background: white;
+float: left;
+}
+
+.original-small-images {
+  display: flex;
+  flex-wrap: wrap;
+ flex: 1;
+}
+
+.img-thumbnail-notxt-flex {
+flex: 1;
+}
+
+/* #hulu-originals div img {
+  position: absolute;
+  float: left;
+  color: green;
+} */
+
+/* #hulu-originals div p {
+  float: right;
+  color: green;
+} */
+
+
+/* ----------------------------------------- */
 
 /* -------------footer --------------- */
 
