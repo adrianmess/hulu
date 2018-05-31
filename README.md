@@ -21,7 +21,7 @@ A Clone of Hulu
 
 <img src="https://storage.googleapis.com/theonemaxim.com/hulu-site-rebuild/Hulu-remake-diagram-.jpeg">
 
-<img src="\img\hulu-remake-diagram.png">
+![](/src/img/hulu-remake-diagram.png "Hulu Site Diagram")
 
 ## Setup/Installation Requirements
 
